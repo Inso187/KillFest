@@ -1,0 +1,7 @@
+name: KillFest
+version: 1.0.2
+main: me.havenmc.killfest.main
+
+commands:
+   killfest: 
+    description: Shows all usefull commands for the plugin.
