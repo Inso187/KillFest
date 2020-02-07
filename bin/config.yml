@@ -1,0 +1,80 @@
+# -------------------------------------------------------- #
+#  ____  __.__.__  .__    ___________              __      #
+# |    |/ _|__|  | |  |   \_   _____/___   _______/  |_    #
+# |      < |  |  | |  |    |    __)/ __ \ /  ___/\   __\   #
+# |    |  \|  |  |_|  |__  |     \\  ___/ \___ \  |  |     #
+# |____|__ \__|____/____/  \___  / \___  >____  > |__|     #
+#         \/                   \/      \/     \/           #
+# -------------------------------------------------------- #
+
+# Version 3.0
+
+command: "cr give %player% killfestbag 1"
+
+no-permission: "&c&l* &7You do not have permission!"
+
+only-players: "&c&l* &7Only &c&nplayers&7 may execute this command!"
+
+config-reloaded: "&a&l* &7The configuration has been &a&nreloaded&7."
+
+already-running: "&c&l* &7There is already a &c&lKillFest&7 running!"
+
+next-killfest: "&a&l* &7The next &c&lKillFest&7 will start in: &a&n%time%"
+
+hologram-spawned: "&a&l* &7You have spawned in the &a&nInformation Hologram&7."
+
+hologram-already-spawned: "&c&l* &7You have already spawned in an &c&nInformation Hologram&7!"
+
+hologram-deleted: "&a&l* &7You have &a&nsuccessfully&c &ndeleted&7 the &a&nInformation Hologram&7!"
+
+no-hologram-to-delete: "&c&l* &7There is no &c&nInformation Hologram&7 to &c&ndelete&7!"
+
+location-set: "&a&l* &7You have set the &c&lKillFest&7 &a&nspawn&7 location!"
+
+killfest-force-start: "&a&l* &7You have &a&nforce started&7 &c&lKillFest&7!" # The message sent to the player who forcefully started KillFest
+
+no-killfest-stop: "&c&l* &7There is currently no &c&lKillFest&7 running!" # This message is sent to the player who is trying to forcefully stop KillFest
+
+player-started-countdown: "&a&l* &a&n%player%&7 has started the &c&lKillFest&7 countdown!" # You can use the placeholder %coords% to show the co-ordinates to the KillFest.
+
+already-on-countdown: "&c&l* &7The &c&lKillFest&7 is already on countdown!"
+
+cooldownEnded: "&c&l* &7The &c&nKillfest Crate&7 is now available to &a&nClaim&a!"
+
+# -------------------------------------------------------- #
+chesthologram-1: "&4&k|||&f &c&lKill Fest &4&k|||"
+chesthologram-2: "&4* &7Status: &a&l%status% &4*"
+chesthologram-3: "&4* &7Time: &c%time% &4*"
+# -------------------------------------------------------- #
+infohologram-1: "&4&k|||&f &c&lKill Fest Info Board &4&k|||"
+infohologram-2: "&4* &7Status: &a&l%status% &4*"
+infohologram-3: "&4* &7Time: &c%time% &4*"
+# -------------------------------------------------------- #
+started-killfest:
+ lore:
+ - "&7"
+ - "&a&l* &7The &c&lKillFest&7 has &a&nstarted&7!"
+ - "&7"
+# -------------------------------------------------------- #
+stop-killfest:
+ lore:
+ - "&7"
+ - "&c&l* &7The &c&lKillFest&7 has &c&nended&7!"
+ - "&7"
+# -------------------------------------------------------- #
+WinnerBroadcast:
+ lore:
+ - "&aInformation:"
+ - "&7"
+ - "&a&l* &7Winner: &a%player%"
+ - "&7"
+ - "&a%player%&7 unlocked the &cKillfest Crate"
+ - "&7and received a &a&nMystery Container!"
+# -------------------------------------------------------- #
+killfest.start: "killfest.start"
+killfest.stop: "killfest.stop"
+killfest.reload: "killfest.reload"
+killfest.timer: "killfest.timer"
+killfest.setlootloc: "killfest.setlootloc"
+killfest.spawnholo: "killfest.spawnholo"
+# -------------------------------------------------------- #

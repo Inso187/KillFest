@@ -1,6 +1,6 @@
 name: KillFest
-version: 1.0.2
-main: me.havenmc.killfest.main
+version: 3.0
+main: havenmc.xyz.bloodbath.Core
 
 commands:
    killfest: 
