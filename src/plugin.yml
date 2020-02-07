@@ -1,0 +1,7 @@
+name: KillFest
+version: 3.0
+main: havenmc.xyz.bloodbath.Core
+
+commands:
+   killfest: 
+    description: Shows all usefull commands for the plugin.

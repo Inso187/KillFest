@@ -1,4 +1,4 @@
-package havenmc.xyz.bloodbath;
+package me.havenmc.killfest;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -7,9 +7,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class ConfigLis
   implements Listener
 {
-  Core plugin;
+  main plugin;
 
-  public ConfigLis(Core instance)
+  public ConfigLis(main instance)
   {
     this.plugin = instance;
   }

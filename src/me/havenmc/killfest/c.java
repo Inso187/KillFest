@@ -1,8 +1,8 @@
-package havenmc.xyz.bloodbath;
+package me.havenmc.killfest;
 
-import org.bukkit.ChatColor;
+import net.md_5.bungee.api.ChatColor;
 
-public class Colour
+public class c
 {
   public static String format(String format)
   {
